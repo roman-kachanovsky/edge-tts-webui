@@ -14,7 +14,9 @@ Localized RU/EN version of [edge-tts-webui](https://github.com/ycyy/edge-tts-web
 
 ## Running
 
-    run.bat
+    run-web.bat
+	# or
+	run.bat
 	# or
 	python app.py
 
