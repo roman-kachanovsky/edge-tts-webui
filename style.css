@@ -1,12 +1,6 @@
-.text-area {
-    height: 586px;
-}
 
 .audio {
-    height: 150px;
-}
-.example{
-    height: 100px;
+    height: 80px;
 }
 #submit-btn {
     color: #fff;
@@ -22,9 +16,4 @@
     color: #fff;
     background: #e6a23c;
     border-color: #e6a23c;
-}
-#clear-btn:hover {
-    color: #fff;
-    background: #ebb563;
-    border-color: #ebb563;
 }
