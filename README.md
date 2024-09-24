@@ -2,6 +2,8 @@
 
 Localized RU/EN version of [edge-tts-webui](https://github.com/ycyy/edge-tts-webui)
 
+![GUI](https://github.com/roman-kachanovsky/edge-tts-webui/blob/main/gui.png)
+
 ## Installation
 
     git clone https://github.com/roman-kachanovsky/edge-tts-webui
