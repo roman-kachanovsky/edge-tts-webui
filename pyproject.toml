@@ -1,0 +1,23 @@
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+select = [
+	"E",
+	"F",
+	"W",
+	"N",
+	# "UP",
+	# "PL",
+	# "RUF",
+]
+extend-select = ["I"]
+
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["I", "F401"]  # DO NOT SORT AND CHECK UNUSED IMPORTS
+
+[tool.ruff.format]
+quote-style = "single"
+
+[tool.poe.tasks]
+format = [{cmd = "ruff format ."}, {cmd = "ruff check . --fix"}]
